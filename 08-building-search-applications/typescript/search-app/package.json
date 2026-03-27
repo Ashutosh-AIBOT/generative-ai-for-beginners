@@ -4,9 +4,9 @@
   "description": "a simple application how to use embeddings to search for similar documents using Azure OpenAI and TypeScript",
   "main": "main.js",
   "scripts": {
-    "build": "rimraf build && tsc",
+    "build": "node init && rimraf build && tsc",
     "preserve": "npm run build",
-    "start": "nodemon"
+    "start": "node init && nodemon"
   },
   "keywords": [
     "typescript",

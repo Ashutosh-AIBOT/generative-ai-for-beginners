@@ -4,9 +4,9 @@
   "description": "a simple application how to manage text completions with Azure OpenAI in Typescript",
   "main": "main.js",
   "scripts": {
-    "build": "rimraf build && tsc",
+    "build": "node init && rimraf build && tsc",
     "preserve": "npm run build",
-    "start": "nodemon"
+    "start": "node init && nodemon"
   },
   "keywords": [
     "typescript",
