@@ -166,3 +166,6 @@ node_modules/
 # downloaded stuff for 08-building-search-applications
 08-building-search-applications/scripts/transcripts_the_ai_show/
 .tool-versions
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
